@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    color:black;
+}
+
+/*_______offset____________*/
+.offset:before{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+/*_______end of offset__________*/ 
+
+
+.motels{
+    background-image: url(/img/Aape.jpeg);
+}
+
+// .motel {
+//     background-image: url(/img/Aape.jpeg);
+// }
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    
+    top: 38%;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+    h1{
+        font-size: 3.8rem;
+        font-weight: 700;
+        letter-spacing: .3rem;
+    }
+    h3{
+        font-size: 2rem;
+        text-shadow: .1re .1rem .8rem black;
+        padding-bottom: 1.6rem;
+    }
+    
+}
+
+/*---------Rest*/
+.fixed-background{
+    // background-color: rgba(0,0,0,0.75);
+    color: whitesmoke;
+    padding: 7rem 2rem;
+    h3{
+        margin-bottom: 2rem;
+    }
+    p{
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+    }
+}
+.moments{
+    background-image: url(/img/bed.jpeg);
+    z-index: -1;
+}
+
+
+.service img{
+    height: 60px;
+}
+
+
